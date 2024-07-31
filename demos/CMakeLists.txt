@@ -18,11 +18,11 @@ project(demos LANGUAGES CXX)
 
 libhal_build_demos(
   DEMOS
-  __device__
+  wsled
 
   PACKAGES
-  libhal-__device__
+  libhal-wsled
 
   LINK_LIBRARIES
-  libhal::__device__
+  libhal::wsled
 )

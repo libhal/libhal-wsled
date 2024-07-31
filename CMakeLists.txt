@@ -13,15 +13,15 @@
 # limitations under the License.
 cmake_minimum_required(VERSION 3.15)
 
-project(libhal-__device__ LANGUAGES CXX)
+project(libhal-wsled LANGUAGES CXX)
 
 libhal_test_and_make_library(
-  LIBRARY_NAME libhal-__device__
+  LIBRARY_NAME libhal-wsled
 
   SOURCES
-  src/__device__.cpp
+  src/wsled.cpp
 
   TEST_SOURCES
-  tests/__device__.test.cpp
+  tests/wsled.test.cpp
   tests/main.test.cpp
 )
